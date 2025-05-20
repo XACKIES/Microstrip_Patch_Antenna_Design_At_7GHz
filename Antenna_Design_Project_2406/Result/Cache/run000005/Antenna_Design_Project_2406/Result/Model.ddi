@@ -1,0 +1,10 @@
+# CSTDomainDecompositionBoxFile 20100105
+4
+MxN_0
+0 24 0 23 0 25
+MxN_1
+0 24 24 60 0 25
+MxN_2
+25 64 0 23 0 25
+MxN_3
+25 64 24 60 0 25

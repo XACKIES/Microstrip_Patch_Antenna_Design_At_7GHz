@@ -1,0 +1,344 @@
+=================================================================================
+ - hardware info
+   + cpu name                    : 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz
+   + sockets                     : 1
+   + cores per socket            : 6
+   + hyperthreading              : on
+   + ht-units                    : 2
+   + max cpuid level             : 27
+   + max cpuid ext. level        : 8
+   + numa nodes                  : 1
+   + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
+apic ids           : 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+apic ids (fallback): 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+from cpu registers: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+fallback: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+combined: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+max id per cpu: 16
+SMT mask: 1
+Core mask: e
+Package mask: fffffff0
+set results:
+  - packages: 1
+  - cores: 6
+  - smts: 2
+generate core map, new implementation
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+packages: 1
+cores   : 6
+ht units: 2
+ - pinning rule in use   : PINNING_RULE_MCALC_SKIP_ALL
+ - desired group         : 0
+ - num cores available   : 12
+ - active core list from affinity: 
+   + num accessible procs          : 12
+   + num logical procs             : 12
+   + current affinity (env)        : 0,1,2,3,4,5,6,7,8,9,10,11
+   + sockets ids in                : 0
+   + core list                  (1): 0,2,4,6,8,10
+ - active cores          : 0,2,4,6,8,10
+ - hyperthreading        : on
+ - allowed core ids      : 0,2,4,6,8,10
+ - allowed core ids (aff): 101010 101010 
+ - used mask (string)    : 101010 101010 
+=================================================================================
+
+=========================================================================
+Version: 2024.4 Release from 2024-04-30 (change 1266454) [Release]
+Workflow: QQ-Facets
+Operation: [acis, fpba, bg, connectivity-tree]
+Architecture: Windows, ID: AMD64
+System Windows-64bit
+Using processor group 0/1
+Matrix calculation information:
+# of Nodes: 0
+Concurrency: 0
+Start ID: 0
+Node ID: 0
+HEX Mesh information:
+Hex mesh: global: [hxr o(0 | 0 | 0) s(65 | 52 | 26) np (no TSTs): 87880] 
+=========================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Thu Thu May 15 22:14:03 2025
+started: processing CAD model
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+========================================================================
+Processing CAD model (for field results)
+	[Improved internal geometry representation]
+	[Accuracy improvement for long shapes in inhomogeneous mesh regions]
+Version: 2024.4 Release from 2024-04-30 (change 1266454)
+PBA version 2024043024
+Sub-Workflow: Facets-QQ-GEX
+Workflow updated: -
+Thu Thu May 15 22:14:03 2025
+========================================================================
+
+===========================================
+Finished CAD processing (for field results)
+===========================================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Thu Thu May 15 22:14:03 2025
+Resource usage for processing CAD model:
+	Runtime                 00:00:00.00137
+	Peak Memory Usage:               20 MB
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+------------------------------------------------------------------------------------------------------------------------------
+PBAMeshFeedback - InfoMap: 0[ms] - SBCell navigation: Using legacy edges - CornerCorrectionLinesAndWires: 0[ms] - Write: 0[ms]
+------------------------------------------------------------------------------------------------------------------------------
+
+Frontend-Node:  =======================================================================
+                FPBA has been activated in order to calculate connectivity information.
+                =======================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Thu Thu May 15 22:14:18 2025
+started: parallelization control
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+=================================================================================
+ - hardware info
+   + cpu name                    : 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz
+   + sockets                     : 1
+   + cores per socket            : 6
+   + hyperthreading              : on
+   + ht-units                    : 2
+   + max cpuid level             : 27
+   + max cpuid ext. level        : 8
+   + numa nodes                  : 1
+   + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
+apic ids           : 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+apic ids (fallback): 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+from cpu registers: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+fallback: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+combined: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+max id per cpu: 16
+SMT mask: 1
+Core mask: e
+Package mask: fffffff0
+set results:
+  - packages: 1
+  - cores: 6
+  - smts: 2
+generate core map, new implementation
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+packages: 1
+cores   : 6
+ht units: 2
+ - pinning rule in use   : PINNING_RULE_MCALC_SKIP_ALL
+ - desired group         : 0
+ - num cores available   : 12
+ - active core list from affinity: 
+   + num accessible procs          : 12
+   + num logical procs             : 12
+   + current affinity (env)        : 0,1,2,3,4,5,6,7,8,9,10,11
+   + sockets ids in                : 0
+   + core list                  (1): 0,2,4,6,8,10
+ - active cores          : 0,2,4,6,8,10
+ - hyperthreading        : on
+ - allowed core ids      : 0,2,4,6,8,10
+ - allowed core ids (aff): 101010 101010 
+ - used mask (string)    : 101010 101010 
+=================================================================================
+
+=========================================================================
+Version: 2024.4 Release from 2024-04-30 (change 1266454) [Release]
+Workflow: QQ-Facets
+Operation: [acis, fpba, bg]
+Architecture: Windows, ID: AMD64
+System Windows-64bit
+Using processor group 0/1
+Matrix calculation information:
+# of Nodes: 0
+Concurrency: 0
+Start ID: 0
+Node ID: 0
+HEX Mesh information:
+Hex mesh: global: [hxr o(0 | 0 | 0) s(65 | 52 | 26) np (no TSTs): 87880] 
+=========================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Thu Thu May 15 22:14:19 2025
+started: processing CAD model
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+========================================================================
+Processing CAD model
+	[Improved internal geometry representation]
+	[Accuracy improvement for long shapes in inhomogeneous mesh regions]
+Version: 2024.4 Release from 2024-04-30 (change 1266454)
+PBA version 2024043024
+Sub-Workflow: Facets-QQ
+Workflow updated: -
+Thu Thu May 15 22:14:19 2025
+========================================================================
+
+----------------------------------------------
+Used point accuracy enhancement value: 69.00%.
+----------------------------------------------
+
+=============================================================================
+Mesh statistics:
+-----------------------------------------------------------------------------
+Minimum edge length (x): 0.297 @ mesh line 29 (x)
+Maximum edge length (x): 2.78 @ mesh line 63 (x)
+Minimum face area (x): 0.0732 @ mesh lines 40 | 13 (y | z)
+Maximum face area (x): 6.77 @ mesh lines 50 | 0 (y | z)
+Minimum edge length (y): 0.263 @ mesh line 40 (y)
+Maximum edge length (y): 2.78 @ mesh line 50 (y)
+Minimum face area (y): 0.0826 @ mesh lines 13 | 29 (z | x)
+Maximum face area (y): 6.77 @ mesh lines 0 | 63 (z | x)
+Minimum edge length (z): 0.278 @ mesh line 13 (z)
+Maximum edge length (z): 2.44 @ mesh line 0 (z)
+Minimum face area (z): 0.078 @ mesh lines 29 | 40 (x | y)
+Maximum face area (z): 7.73 @ mesh lines 63 | 50 (x | y)
+Maximum mesh face aspect ratio (x): 9.99 : 1.0  @ mesh lines 50 | 13 (y | z)
+Maximum mesh face aspect ratio (y): 9.99 : 1.0  @ mesh lines 13 | 63 (z | x)
+Maximum mesh face aspect ratio (z): 10.6 : 1.0  @ mesh lines 63 | 40 (x | y)
+=============================================================================
+
+=============================================================================
+Available resources to store TST cells: 2147395767 (2443554.58% of mesh size)
+=============================================================================
+
+------------------------------------------------------------------------------------------------
+Geometry processing log
+	PEC background is represented by CAD geometry: false
+	Background shape: added
+	Multithread portion: 100.00
+	Number of CAD shapes: 6
+	Number of lumps: 0
+------------------------------------------------------------------------------------------------
+=========================================
+== CST Matrix Calculation Priority Log ==
+=========================================
+Priorities are sorted in ascending order beginning with the lowest priority
+ 
+Group | Shape-ID | ShapeName | Material | User-priority | 2D/3D-Geometry | Material-attributes | Shape-attributes | Feature-ID | Schemetype
+1 | 7 | </cst/Boundaries/> Low^X | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 8 | </cst/Boundaries/> Low^Y | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 9 | </cst/Boundaries/> Low^Z | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 10 | </cst/Boundaries/> Up^X | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 11 | </cst/Boundaries/> Up^Y | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 12 | </cst/Boundaries/> Up^Z | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+2 | 1 | component1:Coxc | Vacuum | n/a | yes | normal.vacuum. | solid. | n/a | FIT_TD
+2 | 6 | component1:Substrate | FR-4 (lossy) | n/a | yes | dispersive-mue.normal. | solid. | n/a | FIT_TD
+3 | 2 | component1:Feed_Line | PEC | n/a | yes | pec. | solid. | n/a | FIT_TD
+3 | 4 | component1:Outer_Coax | PEC | n/a | yes | pec. | solid. | n/a | FIT_TD
+4 | 3 | component1:Ground | Copper (annealed) | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+4 | 5 | component1:Patch | Copper (annealed) | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+=========================================
+************************************************************************************************
+General settings
+	PBA version: default
+------------------------------------------------------------------------------------------------
+Geometry processor: default
+	Geo accuracy: 69.000000
+	Watertightness check: true
+	Self intersection check: false
+	Inheritance (all): false
+	Normal dominance (all): false
+	Normal dominance (ports): false
+	Flanges hollow: true
+	One shape per flange: false
+	Multi threading: true
+		max # of threads used: 12
+		requested max # of threads: 12
+		representation: indexed
+		method: multi thread
+		retry: no
+------------------------------------------------------------------------------------------------
+CAD processing settings are set to default
+------------------------------------------------------------------------------------------------
+Connectivity settings
+	Workflow selection: 0
+	Workflow version: 20190101
+	Gap detection: true
+	Gap detection version: 2
+	TST version: 2
+	QQ workflow: true
+	CoCo workflow: true
+	Legacy topology: false
+	Connectivity check: true
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+CAD Processing Version Info
+	ACIS version installed:	33.0.1
+	ACIS version used:	33.0.1
+------------------------------------------------------------------------------------------------
+Success method:	fb-multi-thread-22
+************************************************************************************************
+
+=======================
+Finished CAD processing
+=======================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Thu Thu May 15 22:14:19 2025
+Resource usage for processing CAD model:
+	Runtime                 00:00:00.00179
+	Peak Memory Usage:               20 MB
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+------------------------------------------------------------
+Parallelization Info
+------------------------------------------------------------
+Hyperthreading active: true
+Hyperthreading used: false
+Number of concurrent threads: 2
+Number of concurrent threads using GPU: 0
+Number of node domains: 2
+Domains-to-threads scaling: 2
+Average FI domain size: 1e+04
+Nice mode: true
+Delayed matrix calculation start: false
+Load balancing: Version 20090403
+Number of mesh fill domains: 8
+Memory downscale: 1
+Shared memory representation: none
+CPU load: 33.33%
+Emptiness: 0.00%
+Hex mesh complexity: 0.08160
+Geometric complexity: 0.04940
+lower size limit of domain (1D): 60
+------------------------------------------------------------
+Node order
+1, 0
+------------------------------------------------------------
+
+------------------------------------------------------------------
+Matrix calculation job submit section 0
+Currently running jobs: 0
+Waiting jobs: 2
+Concurrency for section: 2/2
+Memory physically installed: 16.906 GB
+Memory currently available: 2.61978 GB
+Memory already used: 14.2862 GB
+Matrix calculation @ 1xN-Node 0001
+	Mesh coverage: 4160000.00 %
+	Estimated peak memory usage per node: 41 MB, tightness: 1.57 %
+	GPU acceleration: off
+	Processor group: 0
+Matrix calculation @ 1xN-Node 0000
+	Mesh coverage: 4160000.00 %
+	Estimated peak memory usage per node: 41 MB, tightness: 1.57 %
+	GPU acceleration: off
+	Processor group: 0
+Node distribution on 1 processor group: 2
+------------------------------------------------------------------
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Thu Thu May 15 22:14:24 2025
+Resource usage for parallelization control:
+	Runtime                      00:00:05.00160
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+------------------------------------------------------------------------------------------------------------------------------
+PBAMeshFeedback - InfoMap: 0[ms] - SBCell navigation: Using legacy edges - CornerCorrectionLinesAndWires: 0[ms] - Write: 0[ms]
+ConnectivityAXG - Load: 1[ms] - Setup: 0[ms] - Convert: 0[ms] ( Groups: 2 - Shapes: 6 - Threads: 6 ) - Write: 0[ms]
+ConnectivityAXG - Load: 1[ms] - Setup: 0[ms] - Convert: 0[ms] ( Groups: 2 - Shapes: 6 - Threads: 6 ) - Write: 0[ms]
+------------------------------------------------------------------------------------------------------------------------------
+
