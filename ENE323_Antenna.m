@@ -35,4 +35,4 @@ lg      = lp + (6*h)
 
 G1      = (1/120)*(wp/(c/fr))
 
-y0      = acos(sqrt(50*2*G1))*(wp/pi)
+y0      = acos(sqrt(50*2*G1))*(lp/pi)
